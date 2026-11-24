@@ -34,27 +34,96 @@
       </div>
 
       <div>
-        <p><strong>Victor Raman</strong> · Passed Aug 14, 2026</p>
-        <p><strong>Executors:</strong> Priya and Daniel</p>
-        <p><strong>Ontario probate pending</strong> · Florida probate blocked</p>
+        <div><strong>Victor Raman</strong> · Passed Aug 14, 2026</div>
+        <div><strong>Executors:</strong> Priya and Daniel</div>
+        <div><strong>Ontario probate pending</strong> · Florida probate blocked</div>
       </div>
     </div>
 
     <div class="card col">
       <div class="title">
         <div class="icon">
-          <i class="fa-solid fa-list"></i>
+          <i class="fa-solid fa-spinner"></i>
         </div>
         <div>
           <h2>2. Estate Progress</h2>
         </div>
       </div>
 
-      <div>
-          <div>Ontario probate application submitted</div>
-          <div class="badge">Pending</div>
+      <div class="info">
+        <div class="left">
+          <div>  Ontario probate application submitted</div>
+          <label for="progresss" class="sr-only">Progress</label>
+          <input type="range" name="progress" id="progress" min="0" max="100" value="50">
+          </div>
+        <div class="badge">Pending</div>
+      </div>
+    </div>
+
+    <div class="card col">
+      <div class="title">
+        <div class="icon">
+          <i class="fa-solid fa-chevron-right"></i>
+        </div>
+        <div>
+          <h2>3. What's Next</h2>
+        </div>
+      </div>
+
+      <div class="info">
+        <div class="left">
+          <div><strong>Hire Florida lawyer</strong></div>
+          <div><strong>Priya</strong> · December 14th 2026</div>
+          <hr />
+          <div><strong>Hire Florida lawyer</strong></div>
+          <div><strong>Priya</strong> · December 14th 2026</div>
+        </div>
+        <div>
+          <div class="badge secondary">Blocked</div>
+          <hr class="hidden" />
+          <div class="badge">In Progress</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="card col">
+      <div class="title">
+        <div class="icon">
+          <i class="fa-solid fa-dollar-sign"></i>
+        </div>
+        <div>
+          <h2>4. Money By Country</h2>
+        </div>
+      </div>
+
+      <div class="info">
+        <div class="left">
+          <div class="container">
+            <div class="money">
+              <h4>🇨🇦 Ontario</h4>
+              <h3>CAD 1.46M</h3>
+              <small>Assets ·  Estimated</small>
+              <hr class="small" />
+              <small>Debts: CAD 17,600</small>
+            </div>
+            <div class="money">
+              <h4>🇺🇸 Florida</h4>
+              <h3>USD 416K</h3>
+              <small>Assets ·  Estimated</small>
+              <hr class="small" />
+              <small>Debts: CAD 6,750</small>
+            </div>
+          </div>
+        </div>
+      </div>
+
+        <div class="left">
+          <div>Outside the estate · CAD 320,000 </div>
+          <div>Retirement fund paid directly to Priya and Daniel. Not included in estate assets.</div>
+        </div>
     </div>
 
   </main>
+
   <script src="script.js"></script>
 </body>
