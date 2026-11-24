@@ -58,12 +58,22 @@
 
       <div class="info">
         <div class="left">
-          <div>  Ontario probate application submitted</div>
+          <div>Ontario probate application submitted</div>
           <label for="progresss" class="sr-only">Progress</label>
           <input type="range" name="progress" id="progress" min="0" max="100" value="50">
         </div>
         <div class="badge">Pending</div>
       </div>
+
+    <div class="info margaret none">
+        <div class="left">
+          <div>Florida probate currently blocked</div>
+          <label for="progresss" class="sr-only">Progress</label>
+          <input type="range" name="progress" id="progress" min="0" max="100" value="10" disabled>
+        </div>
+        <div class="badge secondary">Blocked</div>
+      </div>
+
     </div>
 
     <div class="card col">
@@ -77,18 +87,22 @@
       </div>
 
       <div class="info">
-        <div class="left">
+        <div class="left executors">
           <div><strong>Hire Florida lawyer</strong></div>
           <div><strong>Priya</strong> · December 14th 2026</div>
           <hr />
           <div><strong>Hire Florida lawyer</strong></div>
           <div><strong>Priya</strong> · December 14th 2026</div>
         </div>
-        <div>
+        <div class="executors">
           <div class="badge secondary">Blocked</div>
           <hr class="hidden" />
           <div class="badge">In Progress</div>
         </div>
+      </div>
+
+      <div class="left margaret none">
+        <div>No action required from you</div>
       </div>
     </div>
 
@@ -107,25 +121,33 @@
           <div class="container">
             <div class="money">
               <h4>🇨🇦 Ontario</h4>
-              <h3>CAD 1.46M</h3>
-              <small>Assets ·  Estimated</small>
+              <h3 class="executors">CAD 1.46M</h3>
+              <h3 class="margaret none">Valuations Pending</h3>
+              <small class="executors">Assets ·  Estimated</small>
               <hr class="small" />
-              <small>Debts: CAD 17,600</small>
+              <small class="executors">Debts: CAD 17,600</small>
+              <small class="margaret none">Debts: Not available</small>
             </div>
             <div class="money">
               <h4>🇺🇸 Florida</h4>
-              <h3>USD 416K</h3>
-              <small>Assets ·  Estimated</small>
+              <h3 class="executors">USD 416K</h3>
+              <h3 class="margaret none">Valuations Pending</h3>
+              <small class="executors">Assets ·  Estimated</small>
               <hr class="small" />
-              <small>Debts: CAD 6,750</small>
+              <small class="executors">Debts: CAD 6,750</small>
+              <small class="margaret none">Debts: Not available</small>
             </div>
           </div>
         </div>
       </div>
 
-        <div class="left">
+        <div class="left executors">
           <div>Outside the estate · CAD 320,000 </div>
           <small>Retirement fund paid directly to Priya and Daniel. Not included in estate assets.</small>
+        </div>
+
+        <div class="left margaret none">
+          <div>Financial amounts will be shared when valuations are finalized</div>
         </div>
     </div>
 
